@@ -40,7 +40,7 @@ trigger:
   event_data:
     command: '/ping'
 action:
-  - service: notify.notify
+  - service: notify.telegram
     data:
       message: 'pong'
 ```
